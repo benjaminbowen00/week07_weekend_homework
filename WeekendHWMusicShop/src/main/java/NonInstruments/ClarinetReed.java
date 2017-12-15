@@ -3,10 +3,10 @@ package NonInstruments;
 public class ClarinetReed {
 
     int size;
-    String material;
+    String type;
 
-    public ClarinetReed(int size, String material) {
+    public ClarinetReed(int size, String type) {
         this.size = size;
-        this.material = material;
+        this.type = type;
     }
 }

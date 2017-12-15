@@ -1,12 +1,14 @@
 package Instruments;
+import NonInstruments.Product;
 
-public class Instrument {
+public abstract class Instrument extends Product implements IPlay{
 
     private InstrumentType type;
     private String material;
     private String colour;
 
-    public Instrument(InstrumentType type, String material, String colour) {
+    public Instrument(double buyPrice, double sellPrice, InstrumentType type, String material, String colour) {
+        super(buyPrice, sellPrice);
         this.type = type;
         this.material = material;
         this.colour = colour;

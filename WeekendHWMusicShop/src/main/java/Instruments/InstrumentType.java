@@ -1,9 +1,19 @@
 package Instruments;
 
 public enum InstrumentType {
-    BRASS,
-    STRING,
-    WOODWIND,
-    PERCUSSION,
-    KEYBOARD;
+    BRASS("brass"),
+    STRING("string"),
+    WOODWIND("woodwind"),
+    PERCUSSION("percussion"),
+    KEYBOARD("keyboard");
+
+    private final String name;
+
+    private InstrumentType(String name){
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
