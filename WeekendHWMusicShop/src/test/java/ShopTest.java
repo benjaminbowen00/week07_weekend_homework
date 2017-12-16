@@ -1,7 +1,4 @@
-import Instruments.Clarinet;
-import Instruments.Guitar;
-import Instruments.GuitarType;
-import Instruments.InstrumentType;
+import Instruments.*;
 import NonInstruments.ClarinetReed;
 import NonInstruments.GuitarString;
 import Shop.Shop;
@@ -36,6 +33,11 @@ public class ShopTest {
         shop.addProductToStock(clarinet);
         shop2 = new Shop("Empty Music Shop");
 
+    }
+
+    @Test
+    public void canCountStock(){
+        assertEquals(2, shop.allStockCount());
     }
 
     @Test
@@ -115,7 +117,7 @@ public class ShopTest {
     //Testing class methods
     @Test
     public void canUseFunction(){
-        assertEquals("hel", Shop.removeLastTwoCharacters("hello"));
+        assertEquals("hel", Main.removeLastTwoCharacters("hello"));
     }
 
 }

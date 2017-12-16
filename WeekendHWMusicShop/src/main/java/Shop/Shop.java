@@ -6,6 +6,8 @@ import NonInstruments.Product;
 
 import java.util.ArrayList;
 
+import static Instruments.Main.removeLastTwoCharacters;
+
 public class Shop {
     private String name;
     private ArrayList<Product> stock;
@@ -21,6 +23,10 @@ public class Shop {
 
     public void removeProductFromStock(Product product){
         this.stock.remove(product);
+    }
+
+    public int allStockCount(){
+        return this.stock.size();
     }
 
     public double totalStockBuyValue(){
@@ -55,9 +61,10 @@ public class Shop {
     }
 
     // this isn't a shop method but no better place for it - a main method?
-    public static String removeLastTwoCharacters(String input){
-        return input.substring(0, input.length()-2);
-    }
+    //Still Ok to have it without any precursor?
+//    public static String removeLastTwoCharacters(String input){
+//        return input.substring(0, input.length()-2);
+//    }
 
     public String concatenateAllSounds(){
         String sounds = "";

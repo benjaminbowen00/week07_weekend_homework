@@ -9,4 +9,8 @@ public class ClarinetReed {
         this.size = size;
         this.type = type;
     }
+
+    public String getType() {
+        return type;
+    }
 }

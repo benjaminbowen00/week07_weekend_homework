@@ -32,4 +32,9 @@ public class ClarinetTest {
     public void canGetMaterial(){
         assertEquals("Hardwood", clarinet.getMaterial());
     }
+
+    @Test
+    public void canGetReedType(){
+        assertEquals("Soft", clarinet.getReedType());
+    }
 }

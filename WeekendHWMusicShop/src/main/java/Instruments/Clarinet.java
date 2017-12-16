@@ -24,4 +24,8 @@ public class Clarinet extends Instrument{
     public int getSize() {
         return size;
     }
+
+    public String getReedType(){
+        return this.reed.getType();
+    }
 }
