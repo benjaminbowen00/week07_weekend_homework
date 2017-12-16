@@ -54,17 +54,6 @@ public class Shop {
         return false;
     }
 
-//    public boolean containsInstrumentType(String InstrumentType){
-//        ArrayList<Instruments.InstrumentType> instrumentTypes;
-//        for (InstrumentType type : InstrumentType.va){
-//
-//        }
-//        String list = "";
-//        list +=
-
-//        for(Product product : stock)
-//            if(product )
-//    }
 
     public String removeLastTwoCharacters(String input){
         return input.substring(0, input.length()-2);
@@ -117,6 +106,19 @@ public class Shop {
             if (product.getClass().getSimpleName().toLowerCase().equals(instrument.toLowerCase())){return true;}
         }
         return false;
+    }
+
+    public ArrayList<Product> getAllOFSpecificInstrument(String instrument){
+        ArrayList<Product> instrumentsArrayList = new ArrayList<>();
+        for (Product product : stock){
+            String testing = product.getClass().getSimpleName().toLowerCase();
+            if (product.getClass().getSimpleName().toLowerCase().equals(instrument.toLowerCase())){instrumentsArrayList.add(product);}
+        }
+        return instrumentsArrayList;
+    }
+
+    public int getNumberOfInstrumentsInStock(String instrument){
+        return getAllOFSpecificInstrument(instrument).size();
     }
 
 

@@ -41,6 +41,8 @@ public class ShopTest {
     @Test
     public void canGetStockBuyValue(){
         assertEquals(600, shop.totalStockBuyValue(), 0.01);
+        shop.removeProductFromStock(guitar);
+        assertEquals(300, shop.totalStockBuyValue(), 0.01);
     }
 
     @Test
@@ -93,5 +95,21 @@ public class ShopTest {
         assertEquals(false, shop.hasSpecificTypeOfInstrument("Trumpet"));
     }
 
+    @Test
+    public void canGetAllGuitars(){
+        assertEquals(1, shop.getAllOFSpecificInstrument("guitar").size());
+        shop.addProductToStock(guitar);
+        assertEquals(2, shop.getAllOFSpecificInstrument("guitar").size());
+    }
+
+    @Test
+    public void cantGetTrumpetsIfNone(){
+        assertEquals(0, shop.getAllOFSpecificInstrument("trumpet").size());
+    }
+
+    @Test
+    public void canGetNumberofGuitarsInStock(){
+        assertEquals(1, shop.getNumberOfInstrumentsInStock("Guitar"));
+    }
 
 }
