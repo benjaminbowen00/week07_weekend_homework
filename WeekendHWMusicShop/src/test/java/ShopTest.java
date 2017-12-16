@@ -74,5 +74,24 @@ public class ShopTest {
     }
 
 
+    @Test
+    public void doesHaveStringInstrument(){
+        assertEquals(true, shop.hasTypeOfInstrument("string"));
+    }
+    @Test
+    public void doesntHaveKeyboardInstrument(){
+        assertEquals(false, shop.hasTypeOfInstrument("keyboard"));
+    }
+
+    @Test
+    public void doesHaveGuitar(){
+        assertEquals(true, shop.hasSpecificTypeOfInstrument("Guitar"));
+    }
+
+    @Test
+    public void doesntHaveTrumpet(){
+        assertEquals(false, shop.hasSpecificTypeOfInstrument("Trumpet"));
+    }
+
 
 }

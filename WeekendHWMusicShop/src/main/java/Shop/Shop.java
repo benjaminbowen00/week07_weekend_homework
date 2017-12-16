@@ -56,30 +56,68 @@ public class Shop {
 
 //    public boolean containsInstrumentType(String InstrumentType){
 //        ArrayList<Instruments.InstrumentType> instrumentTypes;
+//        for (InstrumentType type : InstrumentType.va){
 //
+//        }
+//        String list = "";
+//        list +=
+
 //        for(Product product : stock)
 //            if(product )
 //    }
 
+    public String removeLastTwoCharacters(String input){
+        return input.substring(0, input.length()-2);
+    }
+
+    public String concatenateAllSounds(){
+        String sounds = "";
+        for (Product product : stock) {
+            if (product instanceof Instrument) {
+                sounds += ((Instrument) product).play() + ", ";
+            }
+        }
+        return sounds;
+    }
+
     public String playAllInstruments(){
         if(containsInstruments()) {
-            String sounds = "";
-            for (Product product : stock) {
-                if (product instanceof Instrument) {
-                    sounds += ((Instrument) product).play() + ", ";
-                }
-            }
-            return sounds.substring(0, sounds.length() - 2);
+            String sounds = concatenateAllSounds();
+            return removeLastTwoCharacters(sounds);
         }
         return "Silence";
     }
 
-//    public String getByInstrumentType(String instrumentType){
-//
+//    public boolean getByInstrumentType(String instrumentType){
+//        for(InstrumentType type : InstrumentType.values()){
+//            for(Product product : stock) {
+//                product = (Instrument) product;
+//                if (((Instrument) product).getType().getName() == type.getName()) {
+//                    return true;
+//                }
+//            }
+//        }
+//        return false;
 //
 //    }
+    //loops through all enum values
 
+    public boolean hasTypeOfInstrument(String instrumentType){
+        for (Product product : stock){
+            if(((Instrument) product).getType().getName() == instrumentType){
+                return true;
+            }
+        }
+        return false;
+    }
 
+    public boolean hasSpecificTypeOfInstrument(String instrument){
+        for (Product product : stock){
+            String testing = product.getClass().getSimpleName().toLowerCase();
+            if (product.getClass().getSimpleName().toLowerCase().equals(instrument.toLowerCase())){return true;}
+        }
+        return false;
+    }
 
 
 }
