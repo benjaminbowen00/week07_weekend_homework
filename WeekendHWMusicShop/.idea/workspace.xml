@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d96bad8b-f2f6-4903-9df3-8f8b369cd3f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NonInstruments/Product.java" afterPath="$PROJECT_DIR$/src/main/java/NonInstruments/Product.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" afterPath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" />
     </list>
@@ -30,15 +30,15 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Shop/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
-              <caret line="120" column="61" lean-forward="false" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
-                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +47,8 @@
       <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="111" column="66" lean-forward="false" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
+            <state relative-caret-position="226">
+              <caret line="114" column="27" lean-forward="false" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1449#1450#0" expanded="true" />
@@ -73,6 +73,27 @@
                 <element signature="e#3031#3032#0" expanded="true" />
                 <element signature="e#3090#3091#0" expanded="true" />
                 <element signature="e#3167#3168#0" expanded="true" />
+                <element signature="e#3240#3241#0" expanded="true" />
+                <element signature="e#3314#3315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NonInstruments/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -403,10 +424,10 @@
         <option value="$PROJECT_DIR$/src/test/java/GuitarStringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" />
         <option value="$PROJECT_DIR$/src/test/java/GuitarTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NonInstruments/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/InstrumentType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Shop/Shop.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShopTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NonInstruments/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shop/Shop.java" />
       </list>
     </option>
   </component>
@@ -666,34 +687,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 10h 42m 07s.xml">
+    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 19h 02m 26s.xml">
       <configuration name="All in WeekendHWMusicShop_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 10h 42m 29s.xml">
+    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 19h 02m 33s.xml">
       <configuration name="All in WeekendHWMusicShop_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 10h 43m 19s.xml">
+    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 19h 06m 04s.xml">
       <configuration name="All in WeekendHWMusicShop_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 18h 49m 05s.xml">
+    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 19h 06m 20s.xml">
       <configuration name="All in WeekendHWMusicShop_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 18h 49m 16s.xml">
+    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 19h 10m 29s.xml">
       <configuration name="All in WeekendHWMusicShop_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 18h 53m 52s.xml">
+    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 19h 13m 48s.xml">
       <configuration name="All in WeekendHWMusicShop_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 18h 54m 33s.xml">
+    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 19h 13m 50s.xml">
       <configuration name="All in WeekendHWMusicShop_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 18h 54m 47s.xml">
+    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 19h 16m 21s.xml">
       <configuration name="All in WeekendHWMusicShop_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 18h 57m 18s.xml">
+    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 19h 22m 00s.xml">
       <configuration name="All in WeekendHWMusicShop_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 18h 57m 52s.xml">
+    <history-entry file="All_in_WeekendHWMusicShop_test - 2017.12.16 at 19h 23m 59s.xml">
       <configuration name="All in WeekendHWMusicShop_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -709,7 +730,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -839,12 +860,12 @@
           <caret line="116" column="97" lean-forward="false" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -903,6 +924,8 @@
             <element signature="e#3031#3032#0" expanded="true" />
             <element signature="e#3090#3091#0" expanded="true" />
             <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#3240#3241#0" expanded="true" />
+            <element signature="e#3314#3315#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1059,6 +1082,8 @@
             <element signature="e#3031#3032#0" expanded="true" />
             <element signature="e#3090#3091#0" expanded="true" />
             <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#3240#3241#0" expanded="true" />
+            <element signature="e#3314#3315#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1069,12 +1094,12 @@
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="2" selection-end-line="79" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1155,20 +1180,6 @@
             <element signature="e#414#415#0" expanded="false" />
             <element signature="e#464#465#0" expanded="false" />
             <element signature="e#542#543#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NonInstruments/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1291,26 +1302,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NonInstruments/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Shop/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
-          <caret line="120" column="61" lean-forward="false" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="111" column="66" lean-forward="false" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
+        <state relative-caret-position="226">
+          <caret line="114" column="27" lean-forward="false" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1449#1450#0" expanded="true" />
@@ -1335,6 +1363,8 @@
             <element signature="e#3031#3032#0" expanded="true" />
             <element signature="e#3090#3091#0" expanded="true" />
             <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#3240#3241#0" expanded="true" />
+            <element signature="e#3314#3315#0" expanded="true" />
           </folding>
         </state>
       </provider>

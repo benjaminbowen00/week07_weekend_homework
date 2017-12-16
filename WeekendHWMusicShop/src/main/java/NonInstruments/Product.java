@@ -21,4 +21,9 @@ public abstract class Product implements ISell{
     public double getSellPrice() {
         return sellPrice;
     }
+
+    public String getProductClassAsLowerCase(){
+        return this.getClass().getSimpleName().toLowerCase();
+    }
+
 }

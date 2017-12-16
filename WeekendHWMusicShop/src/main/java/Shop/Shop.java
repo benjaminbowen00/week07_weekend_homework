@@ -7,8 +7,8 @@ import NonInstruments.Product;
 import java.util.ArrayList;
 
 public class Shop {
-    String name;
-    ArrayList<Product> stock;
+    private String name;
+    private ArrayList<Product> stock;
 
     public Shop(String name) {
         this.name = name;
@@ -54,8 +54,8 @@ public class Shop {
         return false;
     }
 
-
-    public String removeLastTwoCharacters(String input){
+    // this isn't a shop method but no better place for it - a main method?
+    public static String removeLastTwoCharacters(String input){
         return input.substring(0, input.length()-2);
     }
 
@@ -71,39 +71,36 @@ public class Shop {
 
     public String playAllInstruments(){
         if(containsInstruments()) {
-            String sounds = concatenateAllSounds();
-            return removeLastTwoCharacters(sounds);
+            return removeLastTwoCharacters(concatenateAllSounds());
         }
         return "Silence";
     }
 
-//    public boolean getByInstrumentType(String instrumentType){
-//        for(InstrumentType type : InstrumentType.values()){
-//            for(Product product : stock) {
-//                product = (Instrument) product;
-//                if (((Instrument) product).getType().getName() == type.getName()) {
-//                    return true;
-//                }
-//            }
-//        }
-//        return false;
-//
-//    }
-    //loops through all enum values
-
     public boolean hasTypeOfInstrument(String instrumentType){
         for (Product product : stock){
-            if(((Instrument) product).getType().getName() == instrumentType){
+            if(((Instrument) product).getType().getName().equals(instrumentType)){
                 return true;
             }
         }
         return false;
     }
 
+    //no functions in java? Only methods or class methods - use 'static' for class method
+    // Either use these as Shop.methodname() or have them run inside another shop method?
+    //This seems like it should be a product method?
+    //Use:
+//    public static String getProductClassAsLowerCase(){
+//        return this.getClass().getSimpleName().toLowerCase();
+//    }
+
+    //instead of original method:
+//    public static String getProductClassAsLowerCase(Product product){
+//        return product.getClass().getSimpleName().toLowerCase();
+//    }
+
     public boolean hasSpecificTypeOfInstrument(String instrument){
         for (Product product : stock){
-            String testing = product.getClass().getSimpleName().toLowerCase();
-            if (product.getClass().getSimpleName().toLowerCase().equals(instrument.toLowerCase())){return true;}
+            if (product.getProductClassAsLowerCase().equals(instrument.toLowerCase())){return true;}
         }
         return false;
     }
@@ -111,8 +108,8 @@ public class Shop {
     public ArrayList<Product> getAllOFSpecificInstrument(String instrument){
         ArrayList<Product> instrumentsArrayList = new ArrayList<>();
         for (Product product : stock){
-            String testing = product.getClass().getSimpleName().toLowerCase();
-            if (product.getClass().getSimpleName().toLowerCase().equals(instrument.toLowerCase())){instrumentsArrayList.add(product);}
+            if (product.getProductClassAsLowerCase().equals(instrument.toLowerCase())){
+                instrumentsArrayList.add(product);}
         }
         return instrumentsArrayList;
     }

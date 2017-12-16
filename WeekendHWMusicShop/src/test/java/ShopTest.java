@@ -112,4 +112,10 @@ public class ShopTest {
         assertEquals(1, shop.getNumberOfInstrumentsInStock("Guitar"));
     }
 
+    //Testing class methods
+    @Test
+    public void canUseFunction(){
+        assertEquals("hel", Shop.removeLastTwoCharacters("hello"));
+    }
+
 }
