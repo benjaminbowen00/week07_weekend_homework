@@ -4,6 +4,6 @@ public enum PianoType {
     GRAND,
     BABYGRAND,
     UPRIGHT,
-    ELECTRIC;
+    ELECTRIC
 
 }

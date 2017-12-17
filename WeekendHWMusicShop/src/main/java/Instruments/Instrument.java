@@ -16,6 +16,8 @@ public abstract class Instrument extends Product implements IPlay{
 
     public InstrumentType getType() { return type; }
 
+    public String getInstrumentTypeName(){ return this.type.getName();}
+
     public String getMaterial() { return material; }
 
     public String getColour() { return colour; }

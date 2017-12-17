@@ -9,7 +9,7 @@ public enum InstrumentType {
 
     private final String name;
 
-    private InstrumentType(String name){
+    InstrumentType(String name){
         this.name = name;
     }
 

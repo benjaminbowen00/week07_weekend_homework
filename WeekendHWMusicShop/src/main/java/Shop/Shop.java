@@ -1,7 +1,6 @@
 package Shop;
 
 import Instruments.Instrument;
-import Instruments.InstrumentType;
 import NonInstruments.Product;
 
 import java.util.ArrayList;
@@ -66,16 +65,19 @@ public class Shop {
 //        return input.substring(0, input.length()-2);
 //    }
 
-    public String concatenateAllSounds(){
-        String sounds = "";
+
+    //recommended to use stringbuilder and .append - more efficient
+    private String concatenateAllSounds(){
+        StringBuilder sounds = new StringBuilder();
         for (Product product : stock) {
             if (product instanceof Instrument) {
-                sounds += ((Instrument) product).play() + ", ";
+                sounds.append(((Instrument) product).play() + ", ");
             }
         }
-        return sounds;
+        return sounds.toString();
     }
 
+    //don't have a precursor for the removeLastTwoCharacters method?
     public String playAllInstruments(){
         if(containsInstruments()) {
             return removeLastTwoCharacters(concatenateAllSounds());

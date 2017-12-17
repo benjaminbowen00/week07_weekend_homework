@@ -37,4 +37,9 @@ public class ClarinetTest {
     public void canGetReedType(){
         assertEquals("Soft", clarinet.getReedType());
     }
+
+    @Test
+    public void canGetInstrumentTypeName(){
+        assertEquals("woodwind", clarinet.getInstrumentTypeName());
+    }
 }
